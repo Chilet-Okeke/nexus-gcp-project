@@ -4,9 +4,9 @@ This project deploys a Sonatype Nexus Repository Manager on a Google Cloud Platf
 
 ## Prerequisites
 
-- GCP Account: Project `chilets-project-n01` with the network `mynetwork` and Cloud NAT.
+- GCP Account: Project `nexus-project-id01` with the network `mynetwork` and Cloud NAT.
 - Tools: `gcloud` CLI, Terraform, Docker, Docker Compose, Git.
-- Access: SSH access to `nexus-vm` via IAP.
+- Access: SSH access to `nexusvm` via IAP.
 
 ## Repository Structure
 
@@ -114,7 +114,7 @@ sudo docker compose up -d
 - URL: `http://<nexus-vm-external-ip>:8081`
 - Username: `admin`
 - Password:
-
+- Use this command to gain the password
 ```bash
   sudo docker exec nexus cat /nexus-data/admin.password
 ```
