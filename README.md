@@ -177,4 +177,4 @@ MIT License (see `LICENSE`).
 
 ## Contact
 
-Connect with me on [LinkedIn](https://linkedin.com/in/<your-profile>) for feedback or collaboration!
+Connect with me on [LinkedIn](https://linkedin.com/in/chilet) for feedback or collaboration!
