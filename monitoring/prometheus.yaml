@@ -1,0 +1,4 @@
+scrape_configs:
+     - job_name: 'nexus'
+       static_configs:
+         - targets: ['<nexus-vm-external-ip>:8081'] # Replace with chilets-nexusvm2 IP

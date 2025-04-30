@@ -1,0 +1,10 @@
+pipeline {
+       agent any
+       stages {
+           stage('Deploy Nexus') {
+               steps {
+                   sh 'docker-compose -f docker/docker-compose.yml up -d # Runs Nexus on nexusvm'
+               }
+           }
+       }
+   }
