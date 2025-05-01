@@ -10,6 +10,7 @@ This project deploys a Sonatype Nexus Repository Manager on a Google Cloud Platf
 
 ## Repository Structure
 
+```bash
 nexus-gcp-project/
 ├── terraform/
 │ └── nexus-vm.tf # GCP VM and firewall setup
@@ -23,6 +24,7 @@ nexus-gcp-project/
 │ └── Jenkinsfile # Jenkins CI/CD pipeline
 ├── README.md # Project documentation
 └── LICENCE # MIT Licence
+```
 
 ## Setup Instructions
 
@@ -115,6 +117,7 @@ sudo docker compose up -d
 - Username: `admin`
 - Password:
 - Use this command to gain the password
+
 ```bash
   sudo docker exec nexus cat /nexus-data/admin.password
 ```
@@ -164,7 +167,9 @@ sudo rm -rf /opt/nexus-data
 ```
 
 ## Push to Github
+
 In your terminal enter this command
+
 ```bash
 git add .
 git commit -m "Initial setup: Nexus with Google Cloud CLI, Docker, Terraform, Prometheus, Jenkins, and README"
@@ -176,4 +181,5 @@ git push origin main
 MIT Licence (see `LICENCE`).
 
 ## Contact
+
 Connect with me on [LinkedIn](https://linkedin.com/in/chilet) for feedback or collaboration!
