@@ -14,7 +14,7 @@ nexus-gcp-project/
 ├── terraform/
 │ └── nexus-vm.tf # GCP VM and firewall setup
 ├── gcloud cli/
-│ └── gcloud-cli.txt # Gcloud CLi for VM and firewall rules setup
+│ └── gcloud-cli.md # Gcloud CLi for VM and firewall rules setup
 ├── docker/
 │ └── docker-compose.yml # Nexus Docker Compose config
 ├── monitoring/
