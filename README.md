@@ -176,5 +176,4 @@ git push origin main
 MIT Licence (see `LICENCE`).
 
 ## Contact
-
 Connect with me on [LinkedIn](https://linkedin.com/in/chilet) for feedback or collaboration!
