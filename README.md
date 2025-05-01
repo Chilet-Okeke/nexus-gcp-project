@@ -22,7 +22,7 @@ nexus-gcp-project/
 ├── ci/
 │ └── Jenkinsfile # Jenkins CI/CD pipeline
 ├── README.md # Project documentation
-└── LICENCE # MIT License
+└── LICENCE # MIT Licence
 
 ## Setup Instructions
 
@@ -171,9 +171,9 @@ git commit -m "Initial setup: Nexus with Google Cloud CLI, Docker, Terraform, Pr
 git push origin main
 ```
 
-## License
+## Licence
 
-MIT License (see `LICENSE`).
+MIT Licence (see `LICENCE`).
 
 ## Contact
 
